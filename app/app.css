@@ -1,0 +1,82 @@
+body{
+    background: url(hotelbg3.jfif);
+   background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.back,nav{
+    background-color: black;
+    color: white;
+padding: 10px;
+
+display: block;
+}
+.back{
+    margin-top: 20px;
+    text-align: bottom;
+    align-content: end;
+    justify-content: end;
+    
+}
+nav{
+    margin-bottom: 20px;
+    text-align: end;
+}
+button,image{
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 7px;
+    border-radius: 8px;
+    font-weight: bold;
+    border-right-color: rgb(51, 206, 30);
+    border: outset;
+}
+ 
+.box{
+    display: inline-block;
+    margin-left: 110px;
+    flex-direction: row;
+
+}
+input{
+    justify-content: center;
+    align-content: center;
+    margin-left: 35%;
+text-align: center; 
+margin-top: 20px;   
+margin-bottom: 20px;
+padding: 5px;
+width: 400px;
+border-radius: 10px;
+text-decoration: double;
+}
+.box,button{
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(68, 56, 56);
+}
+button:active{
+    background-color: rgb(190, 162, 162);
+}
+button:focus{
+    background-color: blue;
+}
+pre{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: solid;
+    margin-top: 80px;
+    background: black;
+    color: white;
+}
+details{
+    color: black;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: chocolate;
+}
